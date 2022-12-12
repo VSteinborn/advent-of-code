@@ -18,7 +18,7 @@ class Elf:
 
 def main():
 	currentCalorieList=[]
-	with open("./2022/input.txt") as f:
+	with open("./2022/day-01-input.txt") as f:
 		for line in f:
 			try:
 				currentCalorieList.append(int(line))
